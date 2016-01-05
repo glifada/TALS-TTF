@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\Globals\bin\Debug\TelerikAcademy.Core.dll
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\Globals\bin\Debug\TelerikAcademy.Core.pdb
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\Globals\obj\Debug\TelerikAcademy.Core.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\Globals\obj\Debug\TelerikAcademy.Core.dll
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\Globals\obj\Debug\TelerikAcademy.Core.pdb

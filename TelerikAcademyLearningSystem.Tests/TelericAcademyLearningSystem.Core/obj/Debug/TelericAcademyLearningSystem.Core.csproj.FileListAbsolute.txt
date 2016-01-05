@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelericAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelericAcademyLearningSystem.Core.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelericAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\bin\Debug\TelericAcademyLearningSystem.Core.dll
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelericAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\bin\Debug\TelericAcademyLearningSystem.Core.pdb
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelericAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelericAcademyLearningSystem.Core.dll
+D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelericAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelericAcademyLearningSystem.Core.pdb
