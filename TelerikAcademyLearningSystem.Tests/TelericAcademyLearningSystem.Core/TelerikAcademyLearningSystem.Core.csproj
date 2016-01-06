@@ -62,8 +62,6 @@
     <Compile Include="PageModels\Admin\CourseTracksPage\CourseTracksPage.cs" />
     <Compile Include="PageModels\Admin\CourseTracksPage\CourseTracksPage.Map.cs" />
     <Compile Include="PageModels\Admin\CourseTracksPage\CourseTracksPageAsserter.cs" />
-    <Compile Include="Facades\Admin\Certificates\CertificatesTemplatesFacade.cs" />
-    <Compile Include="Facades\Admin\CourseTracks\CourseTracksFacade.cs" />
     <Compile Include="PageModels\Base\BasePage.cs" />
     <Compile Include="PageModels\Base\BrowserWait.cs" />
     <Compile Include="PageModels\LoginPage\LoginPage.cs" />

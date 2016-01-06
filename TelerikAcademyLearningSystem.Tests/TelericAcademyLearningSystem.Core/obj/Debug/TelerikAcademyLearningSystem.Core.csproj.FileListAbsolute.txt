@@ -6,3 +6,8 @@ D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSys
 D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\bin\Debug\TelerikAcademyLearningSystem.Core.pdb
 D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelerikAcademyLearningSystem.Core.dll
 D:\Documents\Visual Studio 2013\Projects\SQA - Part II\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelerikAcademyLearningSystem.Core.pdb
+D:\Documents\Telerik Academy\GitHub\TALS-TTF\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\bin\Debug\TelerikAcademyLearningSystem.Core.dll
+D:\Documents\Telerik Academy\GitHub\TALS-TTF\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\bin\Debug\TelerikAcademyLearningSystem.Core.pdb
+D:\Documents\Telerik Academy\GitHub\TALS-TTF\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelerikAcademyLearningSystem.Core.csprojResolveAssemblyReference.cache
+D:\Documents\Telerik Academy\GitHub\TALS-TTF\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelerikAcademyLearningSystem.Core.dll
+D:\Documents\Telerik Academy\GitHub\TALS-TTF\TelerikAcademyLearningSystem.Tests\TelericAcademyLearningSystem.Core\obj\Debug\TelerikAcademyLearningSystem.Core.pdb

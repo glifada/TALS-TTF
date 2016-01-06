@@ -13,6 +13,7 @@
     public class CertificateTypesTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Certificates;
+        private const string OwnerName = "Galya";
         private readonly string name = "Тип на сертификата";
         private readonly string certificateTemplate = "Тестов шаблон";
         private readonly string excelReportPath = Directory.GetCurrentDirectory() + @"\report.xlsx";
@@ -27,8 +28,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C67")]
+        Priority(2),
+        TestCaseId("C67"),
+        Owner(OwnerName)]
         public void AddNewCertificateTypeWithValidData()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -38,8 +40,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C68")]
+        Priority(2),
+        TestCaseId("C68"),
+        Owner(OwnerName)]
         public void AddNewCertificateTypeWithoutName()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -49,8 +52,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C113")]
+        Priority(2),
+        TestCaseId("C113"),
+        Owner(OwnerName)]
         public void AddNewCertificateTypeWithoutTemplate()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -60,8 +64,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.Medium),
-        TestCaseId("C69")]
+        Priority(3),
+        TestCaseId("C69"),
+        Owner(OwnerName)]
         public void DownloadExcelReportForCertificateTypes()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -71,8 +76,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.Medium),
-        TestCaseId("C70")]
+        Priority(3),
+        TestCaseId("C70"),
+        Owner(OwnerName)]
         public void DownloadPDFReportForCertificateTypes()
         {
             this.certificateTypesPage.NavigateToPage();

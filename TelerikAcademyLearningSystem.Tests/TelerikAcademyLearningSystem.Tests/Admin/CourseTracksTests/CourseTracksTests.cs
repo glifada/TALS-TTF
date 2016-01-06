@@ -13,6 +13,7 @@
     public class CourseTrackTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Tracks;
+        private const string OwnerName = "Galya";
         private readonly string nameBg = "QA инженер1";
         private readonly string nameEn = "QA engineer1";
         private readonly string urlName = "quality-assurance-engineer";
@@ -28,8 +29,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C49")]
+        Priority(2),
+        TestCaseId("C49"),
+        Owner(OwnerName)]
         public void AddCourseTrackWithValidRequiredData()
         {
             this.courseTrackPage.NavigateToPage();
@@ -39,8 +41,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C50")]
+        Priority(2),
+        TestCaseId("C50"),
+        Owner(OwnerName)]
         public void AddCourseTrackWithoutNameInBulgarian()
         {
             this.courseTrackPage.NavigateToPage();
@@ -50,8 +53,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C111")]
+        Priority(2),
+        TestCaseId("C111"),
+        Owner(OwnerName)]
         public void AddCourseTrackWithoutNameInEnglish()
         {
             this.courseTrackPage.NavigateToPage();
@@ -61,8 +65,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.High),
-        TestCaseId("C112")]
+        Priority(2),
+        TestCaseId("C112"),
+        Owner(OwnerName)]
         public void AddCourseTrackWithoutUrlName()
         {
             this.courseTrackPage.NavigateToPage();
@@ -72,8 +77,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.Medium),
-        TestCaseId("C27")]
+        Priority(3),
+        TestCaseId("C27"),
+        Owner(OwnerName)]
         public void DownloadExcelReportForCourseTracks()
         {
             this.courseTrackPage.NavigateToPage();
@@ -83,8 +89,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        TestPriority(TestPriorities.Medium),
-        TestCaseId("C28")]
+        Priority(3),
+        TestCaseId("C28"),
+        Owner(OwnerName)]
         public void DownloadPDFReportForCourseTracks()
         {
             this.courseTrackPage.NavigateToPage();
