@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Attributes\TestCaseId.cs" />
     <Compile Include="Attributes\TestPriority.cs" />
+    <Compile Include="Globals\Owners.cs" />
     <Compile Include="Globals\TestPriorities.cs" />
     <Compile Include="Globals\TestSections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

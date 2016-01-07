@@ -13,7 +13,6 @@
     public class CertificatesTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Certificates;
-        private const string OwnerName = "Galya";
         private readonly string certificateType = "Тип на сертификата";
         private readonly string fullname = "Иван Иванов Иванов";
         private readonly string username = "unicorn";
@@ -29,9 +28,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C55"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateWithValidRequiredData()
         {
             this.certificatesPage.NavigateToPage();
@@ -41,9 +40,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C56"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateWithoutCertificateType()
         {
             this.certificatesPage.NavigateToPage();
@@ -53,9 +52,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C116"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateWithoutFullname()
         {
             this.certificatesPage.NavigateToPage();
@@ -65,9 +64,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C117"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateWithoutUserName()
         {
             this.certificatesPage.NavigateToPage();
@@ -77,9 +76,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C57"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadExcelReportForCourseTracks()
         {
             this.certificatesPage.NavigateToPage();
@@ -89,9 +88,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C58"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadPDFReportForCourseTracks()
         {
             this.certificatesPage.NavigateToPage();

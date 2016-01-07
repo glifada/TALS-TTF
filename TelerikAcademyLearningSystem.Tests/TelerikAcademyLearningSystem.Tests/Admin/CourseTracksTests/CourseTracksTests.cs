@@ -13,7 +13,6 @@
     public class CourseTrackTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Tracks;
-        private const string OwnerName = "Galya";
         private readonly string nameBg = "QA инженер1";
         private readonly string nameEn = "QA engineer1";
         private readonly string urlName = "quality-assurance-engineer";
@@ -29,9 +28,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C49"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddCourseTrackWithValidRequiredData()
         {
             this.courseTrackPage.NavigateToPage();
@@ -41,9 +40,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C50"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddCourseTrackWithoutNameInBulgarian()
         {
             this.courseTrackPage.NavigateToPage();
@@ -53,9 +52,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C111"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddCourseTrackWithoutNameInEnglish()
         {
             this.courseTrackPage.NavigateToPage();
@@ -65,9 +64,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C112"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddCourseTrackWithoutUrlName()
         {
             this.courseTrackPage.NavigateToPage();
@@ -77,9 +76,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C27"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadExcelReportForCourseTracks()
         {
             this.courseTrackPage.NavigateToPage();
@@ -89,9 +88,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C28"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadPDFReportForCourseTracks()
         {
             this.courseTrackPage.NavigateToPage();

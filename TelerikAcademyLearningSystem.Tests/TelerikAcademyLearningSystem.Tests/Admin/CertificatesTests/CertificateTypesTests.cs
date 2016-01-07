@@ -13,7 +13,6 @@
     public class CertificateTypesTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Certificates;
-        private const string OwnerName = "Galya";
         private readonly string name = "Тип на сертификата";
         private readonly string certificateTemplate = "Тестов шаблон";
         private readonly string excelReportPath = Directory.GetCurrentDirectory() + @"\report.xlsx";
@@ -28,9 +27,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C67"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateTypeWithValidData()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -40,9 +39,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C68"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateTypeWithoutName()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -52,9 +51,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C113"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateTypeWithoutTemplate()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -64,9 +63,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C69"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadExcelReportForCertificateTypes()
         {
             this.certificateTypesPage.NavigateToPage();
@@ -76,9 +75,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C70"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadPDFReportForCertificateTypes()
         {
             this.certificateTypesPage.NavigateToPage();

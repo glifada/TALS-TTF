@@ -13,7 +13,6 @@
     public class CertificateTemplatesTests : AcademyBaseTest
     {
         private const string TestCategory = TestSections.Admin + "/" + TestSections.Certificates;
-        private const string OwnerName = "Galya";
         private readonly string name = "Тестов шаблон";
         private readonly string excelReportPath = Directory.GetCurrentDirectory() + @"\report.xlsx";
         private readonly string pdfReportPath = Directory.GetCurrentDirectory() + @"\report.pdf";
@@ -27,9 +26,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C73"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateTemplateWithValidName()
         {
             this.certificateTemplatePage.NavigateToPage();
@@ -39,9 +38,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(2),
+        Priority(TestPriorities.High),
         TestCaseId("C74"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void AddNewCertificateTemplateWithoutName()
         {
             this.certificateTemplatePage.NavigateToPage();
@@ -51,9 +50,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C75"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadExcelReportForCourseTracks()
         {
             this.certificateTemplatePage.NavigateToPage();
@@ -63,9 +62,9 @@
 
         [TestMethod,
         TestCategory(TestCategory),
-        Priority(3),
+        Priority(TestPriorities.Medium),
         TestCaseId("C76"),
-        Owner(OwnerName)]
+        Owner(Owners.Galya)]
         public void DownloadPDFReportForCourseTracks()
         {
             this.certificateTemplatePage.NavigateToPage();
